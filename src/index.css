@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Hind Madurai", ui-sans-serif, system-ui, sans-serif;
+  --font-tamil: "Hind Madurai", sans-serif;
+  
+  --color-brand-50: #f0f7f4;
+  --color-brand-100: #e1efea;
+  --color-brand-200: #c2dfd5;
+  --color-brand-300: #a3cfbf;
+  --color-brand-400: #84bfaa;
+  --color-brand-500: #65af95;
+  --color-brand-600: #518c77;
+  --color-brand-700: #3d6959;
+  --color-brand-800: #29463b;
+  --color-brand-900: #14231d;
+}
+
+body {
+  @apply bg-brand-50 text-brand-900 antialiased;
+}
+
+.tamil-text {
+  font-family: var(--font-tamil);
+}
