@@ -403,7 +403,7 @@ export default function App() {
               <h4 className="text-lg font-bold mb-6">{t[lang].contact}</h4>
               <ul className="space-y-4 text-brand-300">
                 <li>Email: info@healcare.com</li>
-                <li>Phone: +91 98765 43210</li>
+                <li>Phone: +91 81909 42026</li>
                 <li>Address: Tamil Nadu, India</li>
               </ul>
             </div>
@@ -616,7 +616,7 @@ export default function App() {
                   <button 
                     onClick={() => {
                       const message = encodeURIComponent(`Hello! I would like to order:\n${cart.map(i => `- ${i.name[lang]} (${i.size}) x ${i.quantity}`).join('\n')}\nTotal: ₹${cartTotal}`);
-                      window.open(`https://wa.me/919876543210?text=${message}`, '_blank');
+                      window.open(`https://wa.me/918190942026?text=${message}`, '_blank');
                     }}
                     className="w-full py-4 bg-brand-600 hover:bg-brand-700 text-white rounded-2xl font-bold transition-all shadow-lg shadow-brand-600/20 flex items-center justify-center gap-2"
                   >
